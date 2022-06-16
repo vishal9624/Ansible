@@ -1,5 +1,8 @@
 [right]
 3.84.45.141 ansible_ssh_user=ubuntu ansible_ssh_private_key_file="/home/ubuntu/ansible.pem"
 
+[pass]
+3.84.45.141 ansible_ssh_user=demo ansible_ssh_pass="demo"
+
 [wrong]
 35.173.198.201 ansible_ssh_user=ubuntu ansible_ssh_private_key_file="/home/ubuntu/ansible.pem"
